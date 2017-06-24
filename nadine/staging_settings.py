@@ -12,10 +12,10 @@ ALLOWED_HOSTS = [
   'runway-nadine.herokuapp.com'
 ]
 
-
 # Admins
 ADMINS = (
-    ('YOU', 'you@yourdomain.com'),
+    ('Joe Vasquez', 'joe@runway.is'),
+    ('Runway Admin', 'admin@runway.is')
 )
 
 DATABASES = {
@@ -79,8 +79,9 @@ GOOGLE_API_KEY = "AIzaSyAL9nUeE7S3TM0lBvKiP5BYi5Ghdbil5D8"
 # openssl genrsa -out privatekey.pem 1024
 # openssl req -new -x509 -key privatekey.pem -out publickey.cer -days 1825
 # openssl pkcs12 -export -out public_privatekey.pfx -inkey privatekey.pem -in publickey.cer
-#XERO_CONSUMER_KEY = "secretkey"
-#XERO_PRIVATE_KEY = "/keys/privatekey.pem"
+XERO_CONSUMER_KEY = "ECFJFJFCLKXL1N4453ADH9QFUBEWPF"
+XERO_PRIVATE_KEY = "OHZQWJTYCT9PFDY8MUZSMS5RFAHUF6"
+# https://api.xero.com/api.xro/2.0/
 
 # Slack Settings
 SLACK_API_TOKEN = "xoxp-2331654072-3448119480-50994654198-e742ef6f97"
