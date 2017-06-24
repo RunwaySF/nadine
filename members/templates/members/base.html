@@ -73,23 +73,23 @@
 							<div class='nav-wrapper'>
 								<div id='logo'>
 									<a href="{% url 'member:home' %}" class='brand-logo' id="home">
-										<img class='sec-logo' src="{% static 'img/logo-line.png' %}"/>
-									</a>
+                    <img class='sec-logo' style="height:45px; width:auto; margin-top:8px" src="{% static 'img/RunwayLogoWhite.png' %}"/>
+                  </a>
 								</div>
 								<a href='#' data-activates="mobile" class="button-collapse"><img class='menu-img' src="{% static 'img/hamburger.png' %}"/></a>
 						<ul id="nav-mobile" class="right hide-on-med-and-down">
 					{% endblock %}
 					{% if request.user.profile.is_active %}
-							<li><a href="{% url 'member:faq' %}">Help</a></li>
+							<li><a href="{% url 'member:faq' %}">FAQ</a></li>
 							<li><a class='dropdown-button' data-hover="true" data-beloworigin="true" data-activates='dropdown1' href="{% url 'member:members' %}">Members</a>
 								<ul id='dropdown1' class='dropdown-content'>
 									<li><a href="{% url 'member:members' %}">Active Members</a></li>
 									<li><a href="{% url 'member:tag:cloud' 'members' %}">Tags</a></li>
 								</ul>
 							</li>
-							<li><a class='dropdown-button' data-hover="true" data-beloworigin="true" data-activates='dropdown2' href="{% url 'member:org:list' %}">Organizations</a>
+							<li><a class='dropdown-button' data-hover="true" data-beloworigin="true" data-activates='dropdown2' href="{% url 'member:org:list' %}">Companies</a>
 								<ul id='dropdown2' class='dropdown-content'>
-									<li><a href="{% url 'member:org:list' %}">Active Organizations</a></li>
+									<li><a href="{% url 'member:org:list' %}">Active Companies</a></li>
 									<li><a href="{% url 'member:tag:cloud' 'organizations' %}">Tags</a></li>
 								</ul>
 							</li>
