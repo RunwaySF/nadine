@@ -242,14 +242,14 @@ COUNTRY = 'US'
 # COUNTRY = 'CA'
 
 # Uncomment and insert social media URLS to be inserted in the footer
-#FACEBOOK_URL = "https://www.facebook.com/OfficeNomads"
-#TWITTER_URL = 'https://twitter.com/OfficeNomads'
-#YELP_URL = 'https://www.yelp.com/biz/office-nomads-seattle-2'
-#INSTAGRAM_URL = 'https://www.instagram.com/officenomads/'
+FACEBOOK_URL = "https://www.facebook.com/runwayis"
+TWITTER_URL = 'https://twitter.com/runway_incubator'
+YELP_URL = 'https://www.yelp.com/biz/runway-san-francisco'
+INSTAGRAM_URL = 'instagram.com/runwayincubator/'
 
 # These are business hours used to organize reservations. Times MUST be in military time. Calendar will be broken up via 15 minute increments
-# OPEN_TIME = '8:30'
-# CLOSE_TIME = '18:00'
+OPEN_TIME = '8:30'
+CLOSE_TIME = '18:00'
 
 TEST_RUNNER = 'django.test.runner.DiscoverRunner'
 
