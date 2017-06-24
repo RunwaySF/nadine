@@ -83,8 +83,8 @@ CALENDAR_DICT = {'Public':'red', 'Member Only': 'RGBA(71, 159, 198, 1)' }
 #XERO_PRIVATE_KEY = "/keys/privatekey.pem"
 
 # Slack Settings
-#SLACK_API_TOKEN = "your token"
-#SLACK_TEAM_URL = "https://nadine.slack.com/"
+SLACK_API_TOKEN = "xoxp-2331654072-3448119480-50994654198-e742ef6f97"
+SLACK_TEAM_URL = "https://runway.slack.com/"
 
 # Arp Settings
 ARPWATCH_SNMP_SERVER = '192.168.1.1'
