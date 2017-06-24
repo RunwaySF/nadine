@@ -51,7 +51,7 @@ CALENDAR_DICT = {'Public':'red', 'Member Only': 'RGBA(71, 159, 198, 1)' }
 # Google Settngs
 GOOGLE_ANALYTICS_ID = "UA-69141305-2"
 GOOGLE_CALENDAR_ID = "runway.is_8h0n703ejm50lvrc1kh89ft9q8@group.calendar.google.com"
-GOOGLE_API_KEY = "a1f6b56d594cd3900f91ab0ea6e26a88dd891a3f"
+GOOGLE_API_KEY = "AIzaSyAL9nUeE7S3TM0lBvKiP5BYi5Ghdbil5D8"
 
 # Mailgun Settings
 #MAILGUN_API_KEY = "YOUR-MAILGUN-API-KEY"
