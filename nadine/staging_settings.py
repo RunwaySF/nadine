@@ -7,9 +7,10 @@ path = lambda *a: os.path.join(ROOT, *a)
 
 PRODUCTION = False
 DEBUG = True
-ALLOWED_HOSTS = (
+ALLOWED_HOSTS = [
+  '*',
   'runway-nadine.herokuapp.com'
-)
+]
 
 
 # Admins
