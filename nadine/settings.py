@@ -229,10 +229,10 @@ CRONTAB_COMMAND_PREFIX = ""
 CRONTAB_COMMAND_SUFFIX = ""
 
 # Allows for the login page to include or not include the option for nonmembers to register and make a user account.
-ALLOW_ONLINE_REGISTRATION = False
+ALLOW_ONLINE_REGISTRATION = True
 
 # Allows or does not allow for users to upload their own profile photo on the edit profile page.
-ALLOW_PHOTO_UPLOAD = False
+ALLOW_PHOTO_UPLOAD = True
 
 # List of possible public calendar designations and the color for display. Color can in any color format (name, RGBA, Hex, etc)
 CALENDAR_DICT = {}
