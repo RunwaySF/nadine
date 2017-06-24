@@ -11,6 +11,9 @@ cryptography==1.9
 suds-jurko==0.6
 python-slugify==1.2.4
 
+# For staging database connection
+dj-database-url==0.4.2
+
 # Should remain unversioned
 pytz
 requests
