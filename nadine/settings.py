@@ -311,7 +311,7 @@ LOGGING = {
 }
 
 # Import the local and theme SETTINGS files
-if 'ENVIRONMENT' in os.environ and os.environ['os.environ'] == 'staging':
+if 'ENVIRONMENT' in os.environ and os.environ['ENVIRONMENT'] == 'staging':
     #print("Loading staging settings file...")
     from nadine.staging_settings import *
 elif os.path.isfile('nadine/local_settings.py'):
