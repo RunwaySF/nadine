@@ -34,7 +34,7 @@ SECRET_KEY = 'SET_YOUR_SECRET_KEY_IN_LOCAL_SETTINGS'
 
 # -- Message of the Day --
 # Displayed on the iPad after sign-in
-MOTD = "Enjoy your day at Office Nomads!"
+MOTD = "Enjoy your day at Runway!"
 MOTD_TIMEOUT = 5000
 
 # Local time zone for this installation. Choices can be found here:
@@ -312,7 +312,7 @@ LOGGING = {
 
 # Import the local and theme SETTINGS files
 if 'ENVIRONMENT' in os.environ and os.environ['ENVIRONMENT'] == 'production':
-    #print("Loading staging settings file...")
+    #print("Loading production settings file...")
     from nadine.production_settings import *
 elif 'ENVIRONMENT' in os.environ and os.environ['ENVIRONMENT'] == 'staging':
     #print("Loading staging settings file...")
