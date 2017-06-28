@@ -5,7 +5,7 @@ import dj_database_url
 ROOT = os.path.dirname(os.path.abspath(__file__))
 path = lambda *a: os.path.join(ROOT, *a)
 
-PRODUCTION = True
+PRODUCTION = False
 DEBUG = False
 ALLOWED_HOSTS = [
   '*',
