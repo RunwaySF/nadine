@@ -5,8 +5,8 @@ import dj_database_url
 ROOT = os.path.dirname(os.path.abspath(__file__))
 path = lambda *a: os.path.join(ROOT, *a)
 
-PRODUCTION = False
-DEBUG = True
+PRODUCTION = True
+DEBUG = False
 ALLOWED_HOSTS = [
   '*',
   'runway-nadine-production.herokuapp.com'
@@ -27,15 +27,18 @@ SITE_NAME = "Runway"
 SITE_DOMAIN = "runway.is"
 SITE_PROTO = "https"
 
+
+
 # Email Settings
 EMAIL_ADDRESS = "postmaster@runway.is"
 EMAIL_HOST = "smtp.mailgun.org"
 EMAIL_HOST_PASSWORD = "2ef44a9fa872296804c8a501eb21a86d"
-EMAIL_HOST_USER = "postmaster"
-EMAIL_USE_TLS = False
+EMAIL_HOST_USER = "postmaster@runway.is"
+EMAIL_USE_TLS = True
 EMAIL_PORT = 587
-EMAIL_SUBJECT_PREFIX = "[COWORKING] "  # or None if you want no subject prefix
+EMAIL_SUBJECT_PREFIX = "[RUNWAY] "  # or None if you want no subject prefix
 BILLING_EMAIL_ADDRESS = "postmaster@runway.is"
+
 
 # Team Settings
 TEAM_EMAIL_ADDRESS = "team@officenomads.com"
