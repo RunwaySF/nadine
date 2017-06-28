@@ -189,9 +189,9 @@ COMLINK_VERIFY_INCOMING = True
 COMLINK_STRIP_EMAILS = False
 
 # Mailgun Settings
-#MAILGUN_API_KEY = "YOUR-MAILGUN-API-KEY"
-#MAILGUN_DOMAIN = "YOUR-MAILGUN-DOMAIN"
-#MAILGUN_DEBUG = False
+MAILGUN_API_KEY = "key-045b23ba0713dee77afac3e96f5bfd88"
+MAILGUN_DOMAIN = "https://api.mailgun.net/v3/sandbox61e72aedbfa444f49c4a2d9678fcbd87.mailgun.org"
+MAILGUN_DEBUG = False
 
 # Mailchimp Settings
 # MAILCHIMP_API_KEY="YourMailchimpKey"

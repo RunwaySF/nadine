@@ -28,14 +28,14 @@ SITE_DOMAIN = "runway.is"
 SITE_PROTO = "https"
 
 # Email Settings
-EMAIL_ADDRESS = "joe@runway.is"
-EMAIL_HOST = "smtp.example.com"
-EMAIL_HOST_PASSWORD = "password"
-EMAIL_HOST_USER = "username"
-EMAIL_USE_TLS = True
+EMAIL_ADDRESS = "postmaster@runway.is"
+EMAIL_HOST = "smtp.mailgun.org"
+EMAIL_HOST_PASSWORD = "2ef44a9fa872296804c8a501eb21a86d"
+EMAIL_HOST_USER = "postmaster@runway.is"
+EMAIL_USE_TLS = False
 EMAIL_PORT = 587
 EMAIL_SUBJECT_PREFIX = "[COWORKING] "  # or None if you want no subject prefix
-BILLING_EMAIL_ADDRESS = "billing@example.com"
+BILLING_EMAIL_ADDRESS = "postmaster@runway.is"
 
 # Team Settings
 TEAM_EMAIL_ADDRESS = "admin@runway.is"
@@ -54,9 +54,9 @@ GOOGLE_CALENDAR_ID = "runway.is_8h0n703ejm50lvrc1kh89ft9q8@group.calendar.google
 GOOGLE_API_KEY = "AIzaSyAL9nUeE7S3TM0lBvKiP5BYi5Ghdbil5D8"
 
 # Mailgun Settings
-#MAILGUN_API_KEY = "YOUR-MAILGUN-API-KEY"
-#MAILGUN_DOMAIN = "YOUR-MAILGUN-DOMAIN"
-#MAILGUN_DEBUG = False
+MAILGUN_API_KEY = "key-045b23ba0713dee77afac3e96f5bfd88"
+MAILGUN_DOMAIN = "runway.is"
+MAILGUN_DEBUG = False
 
 # USAePay Settings
 # Use API Doc/Literal WSDL
