@@ -190,8 +190,8 @@ COMLINK_STRIP_EMAILS = False
 
 # Mailgun Settings
 MAILGUN_API_KEY = "key-045b23ba0713dee77afac3e96f5bfd88"
-MAILGUN_DOMAIN = "runway.is"
-MAILGUN_DEBUG = True
+MAILGUN_DOMAIN = "https://api.mailgun.net/v3/runway.is"
+MAILGUN_DEBUG = False
 
 # Mailchimp Settings
 # MAILCHIMP_API_KEY="YourMailchimpKey"

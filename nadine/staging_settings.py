@@ -28,11 +28,11 @@ SITE_DOMAIN = "runway.is"
 SITE_PROTO = "https"
 
 # Email Settings
-EMAIL_ADDRESS = "joe@master@runway.is"
+EMAIL_ADDRESS = "joe@runway.is"
 EMAIL_HOST = "smtp.mailgun.org"
 EMAIL_HOST_PASSWORD = "2ef44a9fa872296804c8a501eb21a86d"
 EMAIL_HOST_USER = "postmaster@runway.is"
-EMAIL_USE_TLS = False
+EMAIL_USE_TLS = True
 EMAIL_PORT = 587
 EMAIL_SUBJECT_PREFIX = "[COWORKING] "  # or None if you want no subject prefix
 BILLING_EMAIL_ADDRESS = "postmaster@runway.is"

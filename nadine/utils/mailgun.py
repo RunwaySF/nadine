@@ -85,7 +85,7 @@ def mailgun_send(mailgun_data, files=None, clean_first=True, inject_list_id=True
         if not hasattr(settings, 'MAILGUN_DEBUG') or settings.MAILGUN_DEBUG:
             # We will see this message in the mailgun logs but nothing will actually be delivered
             logger.debug("mailgun_send: setting testmode=yes")
-            mailgun_data["o:testmode"] = "yes"
+            # mailgun_data["o:testmode"] = "yes"
 
     resp = requests.post("https://api.mailgun.net/v2/%s/messages" % settings.MAILGUN_DOMAIN,
                          auth=("api", settings.MAILGUN_API_KEY),

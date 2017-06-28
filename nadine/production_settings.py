@@ -31,7 +31,7 @@ SITE_PROTO = "https"
 
 
 # Email Settings
-EMAIL_ADDRESS = "postmaster@runway.is"
+EMAIL_ADDRESS = "joe@runway.is"
 EMAIL_HOST = "smtp.mailgun.org"
 EMAIL_HOST_PASSWORD = "2ef44a9fa872296804c8a501eb21a86d"
 EMAIL_HOST_USER = "postmaster@runway.is"
