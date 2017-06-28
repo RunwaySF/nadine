@@ -6,7 +6,7 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 path = lambda *a: os.path.join(ROOT, *a)
 
 PRODUCTION = False
-DEBUG = True
+DEBUG = False
 ALLOWED_HOSTS = [
   '*',
   'runway-nadine.herokuapp.com'
@@ -38,7 +38,7 @@ EMAIL_SUBJECT_PREFIX = "[COWORKING] "  # or None if you want no subject prefix
 BILLING_EMAIL_ADDRESS = "postmaster@runway.is"
 
 # Team Settings
-TEAM_EMAIL_ADDRESS = "team@officenomads.com"
+TEAM_EMAIL_ADDRESS = "admin@runway.is"
 TEAM_MEMBERSHIP_PLAN = "ON Team"
 
 # Make this unique, and don't share it with anybody.

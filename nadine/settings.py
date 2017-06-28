@@ -16,7 +16,7 @@ BACKUP_ROOT = path('../backups/')
 BACKUP_COUNT = 30
 
 SITE_NAME = "Runway Incubator"
-SITE_DOMAIN = "localhost"
+SITE_DOMAIN = "runway.is"
 SITE_PROTO = "http"
 SITE_ID = 1
 

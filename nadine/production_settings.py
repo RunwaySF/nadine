@@ -9,7 +9,8 @@ PRODUCTION = False
 DEBUG = False
 ALLOWED_HOSTS = [
   '*',
-  'runway-nadine-production.herokuapp.com'
+  'runway-nadine-production.herokuapp.com',
+  'home.runway.is'
 ]
 
 # Admins
