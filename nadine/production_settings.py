@@ -31,7 +31,7 @@ SITE_PROTO = "https"
 EMAIL_ADDRESS = "postmaster@runway.is"
 EMAIL_HOST = "smtp.mailgun.org"
 EMAIL_HOST_PASSWORD = "2ef44a9fa872296804c8a501eb21a86d"
-EMAIL_HOST_USER = "postmaster@runway.is"
+EMAIL_HOST_USER = "postmaster"
 EMAIL_USE_TLS = False
 EMAIL_PORT = 587
 EMAIL_SUBJECT_PREFIX = "[COWORKING] "  # or None if you want no subject prefix
@@ -56,7 +56,7 @@ GOOGLE_API_KEY = "AIzaSyAL9nUeE7S3TM0lBvKiP5BYi5Ghdbil5D8"
 # Mailgun Settings
 MAILGUN_API_KEY = "key-045b23ba0713dee77afac3e96f5bfd88"
 MAILGUN_DOMAIN = "runway.is"
-MAILGUN_DEBUG = True
+MAILGUN_DEBUG = False
 
 # USAePay Settings
 # Use API Doc/Literal WSDL
