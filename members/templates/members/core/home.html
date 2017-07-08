@@ -27,8 +27,36 @@
 
 {% block lower_nav %}{% endblock %}
 
+
 {% block main_body %}
-	<div id="content_container">
+    <div class="row" style="width:100%; max-width:1100px; margin:0 auto 0 auto; clear:both">
+      <h3>Hello there!</h3>
+      <p>Welcome to Runway where we believe in collaboration, innovation, and community.</p>
+    </div>
+    <div class="row" style="width:100%; max-width:1100px; margin:0 auto 0 auto; clear:both">
+      <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 center" style="padding:10px">
+        <div class="well">
+          <img id='chat_icon' src="{% static 'img/chat_icon.png' %}"/>
+          <p>Printing, billing, or general questions about the space?</p>
+          <a class='card-a btn' href="{% url 'member:faq' %}">Frequently Asked Questions</a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 center" style="padding:10px">
+        <div class="well">
+          <img id='group_icon' src="{% static 'img/people_icon.png' %}"/>
+          <p>See who is here & learn people's names</p>
+          <a class='card-a btn' href="{% url 'member:members' %}">View All Members</a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 center" style="padding:10px">
+        <div class="well">
+          <iframe id='home_cal' style="width:100%; height:300px; margin:0 0 10px 0" src="https://calendar.google.com/calendar/embed?mode=AGENDA&amp;showPrint=0&amp;showTitle=0&amp;showTabs=0&amp;showDate=0&amp;showNav=0&amp;showCalendars=0&amp;showTz=0&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=runway.is_8h0n703ejm50lvrc1kh89ft9q8%40group.calendar.google.com&ctz=America/Los_Angeles&amp;color=%23B1365F&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="100%" height="150" frameborder="0" scrolling="no"></iframe>
+          <a class='card-a btn' style="clear:both" href="{% url 'member:event:calendar' %}">See all Events</a>
+        </div>
+      </div>
+    </div>
+
+	<!--<div id="content_container">
 	<div id="content">
 		{% block content %}
 		<div class='row'>
@@ -56,6 +84,7 @@
 					<a class='card-a' href="{% url 'member:members' %}">View All Members</a>
 				</div>
 			</div>
+
 			<div class="card event-card col offset-s3 offset-m4 offset-l1">
 				<div class="card-content white-text">
 					<iframe id='home_cal' src="https://calendar.google.com/calendar/embed?
@@ -78,13 +107,11 @@
 				</div>
 			</div>
 		</div>
-		<div class='row'>
 
-		</div>
 
 		{% endblock %}
 			</div>
-		</div>
+		</div> -->
 {% endblock %}
 
 {% block footer-class %}
